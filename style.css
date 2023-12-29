@@ -110,8 +110,50 @@
     height: 100vh;
     background: rgb(255,241,179);
     background: linear-gradient(90deg, rgba(255,241,179,1) 0%, rgba(255,214,205,1) 50%, rgba(255,181,237,1) 100%);
+    display: flex;
 }
-
+.page2 .leftt 
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.page2 .leftt .img-collage
+{
+    height: 65%;
+    display: flex;
+    gap: 2rem;
+}
+.left-col
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.left-col img 
+{
+    height: 48.5%;
+    width: 100%;
+    object-fit: cover;
+}
+.right
+{
+    flex: 1;
+}
+.right-col img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page2 .rightt 
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* page2 ends here */
 
 
