@@ -223,6 +223,11 @@
     .left .btn {
         width: 100%;
     }
+
+    .page2
+    {
+        flex-direction: column;
+    }
 }
 
 /* Tablet styles */
@@ -247,5 +252,9 @@
 
     .left .btn {
         width: 50%;
+    }
+    .page2 
+    {
+        flex-direction: column;
     }
 }
